@@ -1,6 +1,6 @@
 .main-header {
    font-size: 20px;
-   padding: 25px 0 25px;
+   padding: 20px 0 20px;
    background-color: rgb(68, 63, 63);
 }
 
@@ -38,14 +38,15 @@ ul li {
 .nav-main__list {
    display: flex;
    gap: 50px;
+   margin-top: 15px;
 }
 
 /*Dropdown*/
 
 nav ul li ul {
    position: absolute;
-   top: 7%;
-   right: 23.5%;
+   top: 8%;
+   right: 28.5%;
    width: 180px;
    background: whitesmoke;
    color: black;
@@ -58,3 +59,14 @@ nav ul li:hover > ul {
 }
 
 /*************/
+
+.login-button {
+   height: 25px;
+   width: 25px;
+   transition: 0.3s;
+   border-radius: 15px;
+}
+
+.login-button:hover {
+   background-color: orange;
+}
